@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exclusive Offers</title>
+    <!-- Google Fonts for Premium Look -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Animated Gradient Background */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+            background-size: 400% 400%;
+            animation: gradientBG 15s ease infinite;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem 1rem;
+        }
+
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        /* Glassmorphism Container */
+        .glass-container {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 20px;
+            padding: 3rem 2rem;
+            max-width: 500px;
+            width: 100%;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        /* Profile Image */
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 3px solid rgba(255, 255, 255, 0.8);
+            margin-bottom: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            object-fit: cover;
+        }
+
+        /* Text Styling */
+        h1 {
+            color: #ffffff;
+            font-size: 1.6rem;
+            font-weight: 600;
+            margin-bottom: 5px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+
+        p.bio {
+            color: #f1f1f1;
+            font-size: 0.95rem;
+            margin-bottom: 25px;
+            font-weight: 400;
+        }
+
+        /* Premium Buttons */
+        .links-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .premium-link {
+            display: block;
+            padding: 14px 20px;
+            background: rgba(255, 255, 255, 0.9);
+            color: #333;
+            text-decoration: none;
+            border-radius: 30px;
+            font-size: 1rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            border: 1px solid transparent;
+        }
+
+        .premium-link:hover {
+            background: #ffffff;
+            transform: translateY(-4px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+            border: 1px solid rgba(255, 255, 255, 0.8);
+            color: #e73c7e; /* Text color changes on hover */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="glass-container">
+        
+        <!-- Profile Picture (Optional: You can change the image link) -->
+        <img src="https://ui-avatars.com/api/?name=My+Offers&background=fff&color=333&size=150" alt="Profile" class="profile-pic">
+        
+        <h1>Premium Offers</h1>
+        <p class="bio">Discover my latest and most exclusive deals below.</p>
+
+        <div class="links-wrapper">
+            
+            <!-- Link 1 -->
+            <a href="https://app.trcefy.com/click?pid=2&offer_id=24314&sub2=u811990&sub5=s1SUBID1HERE" class="premium-link" target="_blank">CTConnect - Ross GitCard device all</a>
+
+            <!-- Link 2 -->
+            <a href="https://app.trcefy.com/click?pid=2&offer_id=576&sub2=u811990&sub5=s1SUBID1HERE" class="premium-link" target="_blank">You might be the next to get a $100 PayPal Gift Card all</a>
+
+            <!-- Link 3 -->
+            <a href="https://app.trcefy.com/click?pid=2&offer_id=24499&sub2=u811990&sub5=s1SUBID1HERE" class="premium-link" target="_blank">ILS - Veggie Seeds Samples all</a>
+
+            <!-- Link 4 -->
+            <a href="https://app.trcefy.com/click?pid=2&offer_id=14565&sub2=u811990&sub5=s1SUBID1HERE" class="premium-link" target="_blank">CTConnect - Nike GiftCard all</a>
+
+            <!-- Link 5 -->
+            <a href="https://app.trcefy.com/click?pid=2&offer_id=24647&sub2=u811990&sub5=s1SUBID1HERE" class="premium-link" target="_blank">Prizezappy - Chance to Win $50K all</a>
+
+        </div>
+    </div>
+
+</body>
+</html>
